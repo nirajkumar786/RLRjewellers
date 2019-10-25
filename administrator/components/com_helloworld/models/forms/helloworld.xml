@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="greeting"
+				type="text"
+				label="Name"
+				description="COM_HELLOWORLD_HELLOWORLD_GREETING_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+<field
+				name="age"
+				type="text"
+				label="Age"
+				description="COM_HELLOWORLD_HELLOWORLD_GREETING_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+
+<field
+name="gender"
+type="radio"
+default="0"
+label="Gender"
+description=""
+class="btn-group">
+                      <option value="m">Male</option>
+                      <option value="f">Female</option>
+               </field>
+
+<field name="mycalendar" type="calendar" default="2017-05-15" label="date of joining" description=""
+	class="input-small" required="true" filter="user_utc"
+	showtime="false" todaybutton="false" filltable="false" translateformat="true" />
+
+<field name="email" type="email"
+	label="JGLOBAL_EMAIL"
+	description="COM_ADMIN_USER_FIELD_EMAIL_DESC"
+	required="true"
+	size="30"
+	class="inputbox"
+	validate="email" />
+
+</fieldset>
+</form>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<extension type ="components" version="3.9.12" method="upgrade">
+<name>comp_mycomp</name>
+<author>Niraj kuamr</author>
+<version>1.0.0</version>
+<description>This is my component</description>
+<files folder="components/comp_mycomp">
+	<filename>mycomp.php</filename>
+	<filename>index.html</filename>
+</files>
+<administration>
+<files folder="administrator/components/comp_mycomp">
+<filename>mycomp.php</filename>
+<filename>index.html</filename>
+</files>
+</administration>
+
+</extension>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="image_modal" class="image-subform">
+		<field name="sliders_img" type="media" default="" label="Slider Image" description="Please choose an image..." />
+		<field name="sliders_title" type="text" default="" label="Title" description="Write title" />
+		<field name="sliders_decs" type="text" default="" label="Text info(pro)" description="Write text info" disabled="true" />
+		<field name="sliders_text" type="text" default="" label="Read more link (pro)" description="Link for read more button" disabled="true" />
+	</fieldset>
+</form>
